@@ -82,6 +82,7 @@ header > p{
 
 @media screen and (max-width: 950px) {
     header > p{
+    text-align: center;
     font-size: 1.1em;
     right: -30%;
     top: 8%;
@@ -232,6 +233,7 @@ iframe{
 
 #entrega > div > ul > h4{
     text-align: center;
+    margin-left: 75px;
 }
 
 #entrega > div{
