@@ -1,0 +1,248 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+@media screen and (max-width: 950px) {
+    ul {
+        margin: 10px 40px;
+        columns: 1;
+    }
+}
+
+
+
+:root{
+    --cor1: #F2B885;
+    --cor2: #F2B66D;
+    --cor3: #F28705;
+    --cor4: #A62626;
+    --cor5: #592202;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor5);
+}
+
+header{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+    background-color: #ffbd6d;
+    padding: 10px 30px 30px 0px;
+}
+
+header > div{
+    display: inline-block;
+}
+
+header > div > h1{
+    font-family: 'Damion', cursive, sans-serif;
+    font-size: 5vw;
+    padding: 10px 10px 5px 3.5vw;
+    color: var(--cor5);
+    text-shadow: 1px 1px 1px black;
+}
+
+header > div > h2{
+    font-size: 2vw;
+    letter-spacing: 10px;
+    padding: 0px 10px 5px 5.5vw;
+    color: var(--cor3);
+    text-shadow: 1px 1px 1px black;
+}
+
+header > div > h2::before{
+    content: '•';
+}
+
+header > div > h2::after{
+content: '•';
+}
+
+header > p{
+    position: absolute;
+    font-family: 'Sofia', cursive;
+    font-size:  2vw;
+    width: 60vw;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.459);
+
+    right: -30%;
+    top: 12%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+
+main{
+    margin: auto;
+    min-width: 350px;
+    max-width: 1000px;
+    background-color: #bb6802;
+}
+
+ul{
+    list-style-type: none;
+    columns: 2;
+    list-style-position: inside;
+}
+
+p{
+    text-align: justify;
+    display: inline-block;
+    width: 25vw;
+}
+
+h2{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.548);
+    padding: 20px 50px;
+    color: var(--cor5);
+    font-size: 2em;
+}
+
+h4{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.877);
+    color: var(--cor5);
+    padding-left: 20px;
+}
+
+.mostruario > ul > p{
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    max-width: 800px;
+    min-width: 350px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 60px;
+}
+
+img, ul, li{
+    display: inline-block;
+    margin: 10px 60px;
+}
+
+main > div > p{
+    display: none;
+}
+
+#img1, #img2, #img3{
+    background-color: black;
+}
+
+#img1{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+    background-image: url('imagens/fundo-paralax1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+#img2{
+    background-image: url('imagens/fundo-paralax2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+#img3{
+    background-image: url('imagens/fundo-paralax3.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+#endereco{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.548);
+    padding: 20px 50px;
+    color: var(--cor2);
+    font-size: 2em;
+
+    background-color: #f2b66d56;
+    border-radius: 50px;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+#entrega{
+    background-color: black;
+}
+
+#entrega > h2{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.548);
+    padding: 70px 50px;
+    color: var(--cor3);
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+#entrega > div > h4{
+    text-align: center;
+}
+
+#entrega > div{
+    display: inline-block;
+    width: 400px;
+}
+
+#entrega > div > ul > li{
+    color: white;
+}
+
+#entrega > p{
+    display: block;
+    padding-left: 50px;
+    color: white;
+}
+
+#zap{
+    width: 25px;
+}
+
+footer{
+    margin-top: 90px;
+}
+
+footer > p{
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 63px;
+    padding-left: 20px;
+    font-size: 1.2em;
+
+    bottom: 10px;
+}
+
+footer > a{
+    width: 20px;
+    margin-left: -40px;
+}   
+
+footer > a > img{
+    padding-bottom: 2px;
+}
