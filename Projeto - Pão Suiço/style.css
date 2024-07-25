@@ -52,9 +52,11 @@ header > div > h2{
 }
 
 @media screen and (max-width: 950px) {
-    header > div > h1, h2{
-    
-    }
+    header > div > h1{
+        font-size: 8vw;}
+
+    header > div > h2{
+    font-size: 4vw;}
 }
 
 header > div > h2::before{
@@ -76,6 +78,24 @@ header > p{
     top: 12%;
 
     transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 950px) {
+    header > p{
+    font-size: 6vw;
+    right: -30%;
+    top: 8%;
+
+    transform: translate(-50%, -50%);
+    }
+
+    header > p::after{
+    content: '"';
+    }
+
+    header > p::before{
+    content: '"';
+    }
 }
 
 main{
