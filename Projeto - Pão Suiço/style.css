@@ -149,6 +149,14 @@ img, ul, li{
     margin: 10px 10px 10px 60px;
 }
 
+img{
+    transition: 0.5s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
 main > div > p{
     display: none;
 }
@@ -168,6 +176,7 @@ main > div > p{
 }
 
 #img2{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
     background-image: url('imagens/fundo-paralax2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,6 +185,7 @@ main > div > p{
 }
 
 #img3{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
     background-image: url('imagens/fundo-paralax3.png');
     background-position: center center;
     background-repeat: no-repeat;
@@ -185,6 +195,7 @@ main > div > p{
 }
 
 #endereco{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
     display: block;
     margin: auto;
     margin-top: 40px;
@@ -258,6 +269,30 @@ iframe{
     color: white;
 }
 
+
+
+table{
+    margin: auto;
+}
+
+th{
+    color: #592202;
+}
+
+td{
+    color: #F28705;
+}
+
+td, th{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.valor{
+    padding-right: 60px;
+    color: white;
+}
+
 #zap{
     width: 25px;
 }
@@ -284,4 +319,14 @@ footer > a{
 
 footer > a > img{
     padding-bottom: 2px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 210px;
+    background-color: #140e01;
+    border-radius: 20px;
 }

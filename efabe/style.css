@@ -14,14 +14,22 @@
     --color4: #0D0D0D;
 }
 
-body{
-    background-color: var(--color3);
-}
 
 header > h1, p{
     display: inline-block;
 }
 
-header > img{
+table{
+    margin:auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 
+th{
+    text-align: center;
+}
+
+tr, td{
+    border: 1px solid black;
+    padding: 10px;
 }
