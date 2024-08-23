@@ -16,6 +16,7 @@
 }
 
 body{
+    height: 100vw;
     background-color: var(--cor5);
 }
 
@@ -265,6 +266,11 @@ iframe{
         margin: 10px 40px;
         columns: 1;
     }
+
+    td, th{
+        font-size: 0.1em;
+        padding: 5px;
+    }
 }
 
 #entrega > p{
@@ -272,8 +278,6 @@ iframe{
     padding-left: 50px;
     color: white;
 }
-
-
 
 table{
     margin: auto;
@@ -310,7 +314,7 @@ footer > p{
     position: relative;
     display: inline-block;
     color: white;
-    width: 63px;
+    width: 112px;
     padding-left: 20px;
     font-size: 1.2em;
 
@@ -323,7 +327,9 @@ footer > a{
 }   
 
 footer > a > img{
-    padding-bottom: 2px;
+
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 ::-webkit-scrollbar{
