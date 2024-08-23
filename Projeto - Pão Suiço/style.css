@@ -67,7 +67,7 @@ header > div > h2::after{
 content: '•';
 }
 
-header > p{
+header > div > p{
     position: absolute;
     font-family: 'Sofia', cursive;
     font-size:  2vw;
@@ -80,22 +80,26 @@ header > p{
     transform: translate(-50%, -50%);
 }
 
+/* 950px */
 @media screen and (max-width: 950px) {
-    header > p{
-    text-align: center;
-    font-size: 1.1em;
-    right: -30%;
-    top: 8%;
-
-    transform: translate(-50%, -50%);
+    header > div, header > div > p{
+        position: relative;
+        display: block;
     }
 
-    header > p::after{
-    content: '"';
+    header > div{
+        text-align: center;
+        margin: auto;
+        display: block;
     }
 
-    header > p::before{
-    content: '"';
+    header > div > p{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        text-align: center;
+        display: block;
+        padding: 40px;
     }
 }
 
@@ -273,6 +277,7 @@ iframe{
 
 table{
     margin: auto;
+    max-width: 600px;
 }
 
 th{
