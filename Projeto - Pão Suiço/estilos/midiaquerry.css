@@ -4,7 +4,7 @@
 
     /* Cabeçario */
     header {
-        width: 92vw;
+        width: 90.5vw;
         height: 150px;
     }
 
@@ -31,6 +31,7 @@
         position: absolute;
         top: 80%;
         left: 50%;
+        width: 300px;
         font-size: 4vw;
         text-align: center;
         display: block;
@@ -40,9 +41,25 @@
 
     /* Corpo */
 
+    #local{
+        height: 420px;
+    }
+
     #endereco {
         display: block;
         width: 150px;
+    }
+
+    #response-map{
+        position: relative;
+    }
+
+    #map{
+        position: absolute;
+
+        top: 5%;
+        left: 5%;
+        width: 90%;
     }
 
     ul {
@@ -59,4 +76,28 @@
         padding: 5px;
     }
 
+}
+
+@media screen and (min-width: 500px) {
+    header{
+        width: 92vw;
+    }
+
+    table{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header{
+        width: 102.9vw;
+    }
+
+    main{
+        width: 400px;
+    }
+
+    table{
+        margin-left: 0px;
+    }
 }

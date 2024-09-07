@@ -60,10 +60,10 @@ header > div > p{
     position: absolute;
     font-family: 'Sofia', cursive;
     font-size:  2vw;
-    width: 60vw;
+    width: 30vw;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.459);
 
-    right: -40%;
+    right: 10%;
     top: 15%;
 
     transform: translate(-50%, -50%);
@@ -71,7 +71,6 @@ header > div > p{
 
 main{
     margin: auto;
-    min-width: 350px;
     max-width: 1000px;
     background-color: #bb6802;
 }
@@ -228,7 +227,7 @@ iframe{
 
 table{
     margin: auto;
-    max-width: 600px;
+    max-width: 1000px;
 }
 
 th{
