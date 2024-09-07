@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 950px) {
+
+    /* Cabeçario */
+    header {
+        height: 100px;
+    }
+
+    header > div > h1{
+        font-size: 8vw;
+    }
+
+    header > div > h2{
+        font-size: 3.1vw;
+    }
+
+    header > div, header > div > p{
+        position: relative;
+        display: block;
+    }
+
+    header > div{
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    header > div > p{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        text-align: center;
+        display: block;
+        padding: 40px;
+    }
+
+    /* Corpo */
+
+    #endereco {
+        display: block;
+        width: 150px;
+    }
+
+    ul {
+        margin: 10px 40px;
+        columns: 1;
+    }
+    
+    table{
+        margin-left: 50px;
+    }
+
+    td, th{
+        font-size: 1em;
+        padding: 5px;
+    }
+
+}
