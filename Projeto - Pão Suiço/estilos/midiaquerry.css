@@ -4,7 +4,8 @@
 
     /* Cabeçario */
     header {
-        height: 100px;
+        width: 92vw;
+        height: 150px;
     }
 
     header > div > h1{
@@ -12,7 +13,7 @@
     }
 
     header > div > h2{
-        font-size: 3.1vw;
+        font-size: 4vw;
     }
 
     header > div, header > div > p{
@@ -30,8 +31,10 @@
         position: absolute;
         top: 80%;
         left: 50%;
+        font-size: 4vw;
         text-align: center;
         display: block;
+        margin-top: 40px;
         padding: 40px;
     }
 
