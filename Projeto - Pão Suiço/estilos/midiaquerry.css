@@ -100,4 +100,12 @@
     table{
         margin-left: 0px;
     }
+
+    section.mostruario{
+        display: flexbox;
+    }
+
+    section.mostruario > table{
+        flex: auto;
+    }
 }
